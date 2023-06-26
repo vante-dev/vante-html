@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>vante.html</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="assets/images/cross.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Drømme 2 mareridt">
+        <meta property="og:url" content="https://vante.html/">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:image" content="assets/images/cross.png>
+        <meta name="theme-color" content="#2f3136">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <main>
+            <script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.volume = 0.3;
+                    audio.play()
+                }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
+            </script>
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                    <span class="no-hover" style="font-family: derk; font-size: 0.6em;">Tap anywhere</span>
+                    <span class="hover" style="font-family: derk; font-size: 0.6em;">Click anywhere</span>
+                </label>
+            </div>
+            <audio loop="" preload="auto" id="audio">
+                <source src="assets/audio/bg.mp3" type="audio/mp3">
+            </audio>
+            <video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+                <source src="assets/images/bg.webm" type="video/webm">
+            </video>
+            <section class="fullscreen text-content">
+            </div>
+            <div id="manipulate">
+                <h3>♱</h3>
+                
+            </div>
+
+            <div id="center">
+                <h1 style="font-family: derk; text-shadow: 0 0 0.40em #bababa;">vante.html</h1>
+                <div class="socials">
+                    
+		<h3>discord: @q7x</h3>
+        <h4>@kaanxsrd</h4>
+
+                    <span>
+                        >:
+                <a href="https://instagram.com/kaanxsrd" style="text-decoration:none; font-family: derk; font-size: 1em;">Instagram</a>
+                    </span>
+                    <span>
+                        >:
+                <a href="https://discord.gg/Luppux" style="text-decoration:none; font-family: derk; font-size: 1em;">/Luppux</a>
+                    </span>
+                    <span>
+                        >:
+                <a href="https://discord.gg/Testers" style="text-decoration:none; font-family: derk; font-size: 1em;">/Testers</a>
+                    </span>
+                    
+            </div>
+        </main>
+</html>
